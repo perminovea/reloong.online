@@ -36,9 +36,9 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
-    /* background-image: url(../img/On_hover.png);
+    background-image: url(../img/On_hover.png);
     background-repeat: no-repeat;
-    background-position-x: -20px; */
+    background-position-x: -20px;
     padding-bottom: 20px;
     
 }
@@ -62,9 +62,9 @@ body {
 
 }
 
-.logo__nav__header {
+/* .logo__nav__header {
     position: relative;
-}
+} */
 
 .link__liss__list__nav__header {
     text-decoration: none;
@@ -73,7 +73,7 @@ body {
 
 .link__liss__list__nav__header1 {
     color: #FFFFFF;
-    position: absolute;
+    /* position: absolute; */
     right: 20px;
 }
 
