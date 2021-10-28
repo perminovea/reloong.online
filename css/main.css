@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* Прижатие footer к низу */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex-grow: 1;
+}
+
+/*  Задаем границу контенту */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Верх главной страницы */
+
+.header {
+    background-image: url(../img/fon_header.jpg);
+    max-height: 689px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    /* background-image: url(../img/On_hover.png);
+    background-repeat: no-repeat;
+    background-position-x: -20px; */
+    padding-bottom: 20px;
+    
+}
+
+.list__nav__header {
+    display: flex;
+    list-style-type: none;
+}
+
+.liss__list__nav__header {
+    padding-left: 60px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #490C3C;
+}
+
+.liss1nav__header {
+    padding-left: 0;
+
+}
+
+.logo__nav__header {
+    position: relative;
+}
+
+.link__liss__list__nav__header {
+    text-decoration: none;
+}
+
+
+.link__liss__list__nav__header1 {
+    color: #FFFFFF;
+    position: absolute;
+    right: 20px;
+}
+
+.reg__nav__header {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #490C3C;
+}
+
+.logo__header {
+    margin-top: 120px;
+    height: 121px;
+    /* background-image: url(../img/logo_header.svg); */
+}
+
+.btn__containert__header {
+    padding: 60px 0 250px 0;
+    display: flex;
+}
+
+.btn__reg__header {
+    width: 214px;
+    height: 65px;
+    background: linear-gradient(95.27deg, #6B4185 0%, #4749A3 100%);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    border: #4749A3;
+
+}
+
+.btn__door__header {
+    width: 218px;
+    height: 65px;
+    margin-left: 58px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #6B4185;
+    border: rgba(255, 255, 255, 0.75);
+}
