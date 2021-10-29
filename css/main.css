@@ -30,6 +30,8 @@ body {
 .header {
     background-image: url(../img/fon_header.jpg);
     max-height: 689px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav {
@@ -40,7 +42,6 @@ body {
     background-repeat: no-repeat;
     background-position-x: -20px;
     padding-bottom: 20px;
-    
 }
 
 .list__nav__header {
@@ -59,7 +60,6 @@ body {
 
 .liss1nav__header {
     padding-left: 0;
-
 }
 
 /* .logo__nav__header {
@@ -69,7 +69,6 @@ body {
 .link__liss__list__nav__header {
     text-decoration: none;
 }
-
 
 .link__liss__list__nav__header1 {
     color: #FFFFFF;
@@ -106,9 +105,7 @@ body {
     line-height: 25px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    border: #4749A3;
-
-}
+    border: #4749A3;}
 
 .btn__door__header {
     width: 218px;
@@ -122,4 +119,135 @@ body {
     letter-spacing: 0.03em;
     color: #6B4185;
     border: rgba(255, 255, 255, 0.75);
+}
+
+/* Конец верха главной страницы */
+
+/* Середина главной страницы */
+
+.container__section__all {
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+
+.left__section__all {
+    width: 770px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text1__left__section__all {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #490C3C;
+}
+
+.text2__left__section__all {
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    justify-content: flex-start;
+}
+
+.card1__left__section__all {
+    margin-top: 30px;
+    flex-grow: 1;
+    background-image: url(../img/card/BG1.png);
+    width: 770px;
+    height: 380px;
+}
+
+.card2__left__section__all {
+    width: 370px;
+    height: 240px;
+    margin-top: 30px;
+    background-image: url(../img/card/BG2.png);
+}
+
+.card3__left__section__all {
+    width: 370px;
+    height: 240px;
+    margin-top: 30px;
+    background-image: url(../img/card/BG3.png);
+}
+
+.card4__left__section__all {
+    width: 370px;
+    height: 240px;
+    margin-top: 30px;
+    background-image: url(../img/card/BG2.png);
+}
+
+.card5__left__section__all {
+    width: 370px;
+    height: 240px;
+    margin-top: 30px;
+    background-image: url(../img/card/BG3.png);
+}
+
+.card6__left__section__all {
+    margin-top: 50px;
+    flex-grow: 1;
+    background-image: url(../img/card/sakura.png);
+    width: 770px;
+    height: 348px;
+    background: linear-gradient(86.29deg, #FDD4F1 -7.65%, #D1BFF3 104.16%);
+    border-radius: 4px;
+}
+
+.right__section__all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+
+}
+
+.card1__right__section__all {
+    width: 370px;
+    height: 112px;
+    background: linear-gradient(91.71deg, rgba(121, 119, 231, 0.85) -7.61%, rgba(193, 99, 255, 0.85) 109.72%);
+    backdrop-filter: blur(4px);
+    border-radius: 4px;
+}
+
+.card2__right__section__all {
+    width: 175px;
+    height: 74px;
+    background: linear-gradient(91.71deg, rgba(4, 190, 254, 0.85) -7.61%, rgba(68, 129, 235, 0.85) 109.72%);
+    border-radius: 4px;
+}
+
+.card3__right__section__all {
+    width: 175px;
+    height: 74px;
+    background: linear-gradient(91.71deg, rgba(4, 190, 254, 0.85) -7.61%, rgba(68, 129, 235, 0.85) 109.72%);
+    border-radius: 4px;
+}
+
+.card4__right__section__all {
+    width: 370px;
+    height: 545px;
+}
+
+.card5__right__section__all {
+    width: 370px;
+    height: 467px;
+    background: #C4C4C4;
+    border-radius: 4px;
+}
+
+.spisok {   
+    list-style-type: none;
+
 }
