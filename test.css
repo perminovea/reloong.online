@@ -1,38 +1,79 @@
-ul {
-    list-style-type: none;
-}
-
-span {
-    font-family: Philosopher;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 25px;
-    letter-spacing: 0.03em;
-    color: chartreuse
-}
-
-.img1 {}
-
-..img2 {
-    margin-left: -25px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background: #CBD0D7;
+   
 }
 
-button {
-    background: #FFFFFF;
-    border-radius: 4px;
+.CatalogET {
+    display: flex;   
+}
+
+
+
+.btnIcon__CatalogET {
+    margin-top: 15px;
+    clip-path: polygon(0% 0%, 70% 0%, 100% 100%, 0% 100%);
     width: 110px;
     height: 65px;
-    border: #FFFFFF;
-    clip-path: polygon(0% 100%, 70% 0%, 100% 100%, 100% 100%);
-    text-align:start
-
+    background: linear-gradient(95.27deg, #6B4185 0%, #4749A3 100%);
+    border-radius: 4px;
+    border: #4749A3;
+    box-sizing: border-box;
 }
 
-.test_img {
-    padding-left: -5px;
+.btnIconSword {
+    margin-top: 0;
+}
+
+
+.img__Catalog__EventsTable {
+   margin-left: -33px;
+}
+
+
+
+.btnText__CatalogET {
+    margin-top: 15px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 12% 100%);
+    width: 285px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(195, 166, 198, 0.35);
+    border-radius: 4px;
+    margin-left: -29px;
+    border: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    box-sizing: border-box;
+    color: #4749A3;
+    text-align: start;
+    padding-left: 35px;
+}
+
+.btnTextSword {
+    margin-top: 0;
+}
+
+.btnIcon__CatalogET:hover {
+    background: #FFFFFF;
+}
+ 
+
+.btnText__CatalogET:hover {
+    background: linear-gradient(95.27deg, #6B4185 0%, #4749A3 100%);
+    color: #FFFFFF;
+}
+
+
+
+.btnText__CatalogET:active {
+    background: linear-gradient(95.27deg, #37144D 0%, #1C1E6B 100%);
+    color: #FFFFFF;
 }
