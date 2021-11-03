@@ -127,7 +127,9 @@ body {
 /* Середина главной страницы */
 
 .section__all {
-    background: linear-gradient(86.29deg, #FDD4F1 -7.65%, #D1BFF3 104.16%);
+    background: url(../img/BG_fon_sector.png)/* , 
+    linear-gradient(86.29deg, #FDD4F1 -7.65%, #D1BFF3 104.16%) */
+    ;
 }
 
 .container__section__all {
@@ -369,7 +371,6 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
-   
 }
 
 .number_card1 {
@@ -377,7 +378,6 @@ body {
     line-height: 72px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
 }
 
 .text_card1 {
@@ -413,7 +413,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
 }
 
 .number_card2_3 {
@@ -421,15 +420,12 @@ body {
     line-height: 40px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
 }
 
 .text_card2_3 {
     font-size: 14px;
     line-height: 14px;
- 
 }
-
 
 .card4__right__section__all {
     width: 370px;
@@ -508,4 +504,62 @@ body {
 
 .spisok {
     list-style-type: none;
+}
+
+/* Подвал */
+
+.navigation {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_navigation {
+    font-family: Philosopher;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.list_navigation {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.field_navigation {
+    margin-top: 15px;
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #704770;
+}
+
+.info_navigation {
+    margin-bottom: 52px;
+}
+
+.footer {
+    background: rgba(245, 228, 243, 0.4);
+
+}
+.container_footer {
+    padding: 25px 0;
+}
+
+.list_footer {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.lis_footer {
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #B698B5;
 }

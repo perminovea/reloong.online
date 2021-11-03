@@ -4,197 +4,43 @@
 }
 
 body {
-    background: white;
+    background: red;
     font-family: 'Philosopher', 'Nunito', sans-serif;
     font-family: 'Philosopher', sans-serif;
 }
 
-/* Начало контейнера с карточками */
-.left_SALL {
-    margin-top: 30px;
-    max-width: 770px;
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.navigation {
+    margin-top: 100px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    font-family: 'Nunito', sans-serif;
 }
 
-.main_card__left_SALL {
-    max-height: 380px;
-    padding: 210px 40px 40px 40px;
-    background-image: url(img/card/BG1.png);
-    order: 0;
-}
-
-.main__date__card {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    color: #CBD0D7;
-}
-
-.main__theme__card {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    color: #CBD0D7;
-    margin-left: 15px;
-}
-
-.main__title__card {
-    margin-top: 5px;
-    font-size: 24px;
-    line-height: 33px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-
-.main__text__card {
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFF;
-}
-
-.minor_card {
-    margin-top: 30px;
-    padding: 115px 20px 20px 20px;
-    max-width: 370px;
-    background: linear-gradient(180deg, rgba(112, 71, 112, 0) 0%, #704770 100%);
-}
-
-.date__card {
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    color: #CBD0D7;
-}
-
-.theme__card {
-    margin-left: 15px;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    color: #CBD0D7;
-}
-
-.title__card {
-    margin-top: 5px 0;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-
-.text__card {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
-    color: #FFFFFF;
-    width: 330px;
-}
-
-.card2 {
-    order: 2;
-}
-
-.card3 {
-    order: 1;
-}
-
-.card4 {
-    order: 4;
-    margin-left: 30px;
-}
-
-.card5 {
-    order: 3;
-}
-
-.ninja__left_SALL {
-    order: 5;
-    border-radius: 4px;
-    padding: 50px 0 90px 0;
-    max-width: 770px;
-    background: url(img/card/PICninja.png)no-repeat 425px 22px, url(img/card/sakura.png) no-repeat 0 50px, url(img/card/BG__fonninja.png) no-repeat 0 50px;
-}
-
-.card_couple__left_SALL {
-    background-image: url(img/card/BG2.png);
-}
-
-.card_nature__left_SALL {
-    background-image: url(img/card/BG3.png);
-}
-
-.card__ninja {
-    width: 720px;
-    display: flex;
-    flex-direction: column;
-    padding: 50px 0 50px 50px;
-    border-radius: 4px;
-}
-
-.title__ninja {
-    width: 420px;
+.title_navigation {
+    font-family: Philosopher;
     font-weight: bold;
     font-size: 24px;
     line-height: 27px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: rgba(107, 65, 133, 1);
 }
 
-.text__ninja {
-    margin: 20px 0 10px 0;
-    width: 400px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    color: #490C3C;
+.list_navigation {
+    list-style-type: none;
+    margin-top: 10px;
 }
 
-.link__ninja {
-    text-decoration: none;
+.field_navigation {
+    margin-top: 15px;
+    font-family: Nunito;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    color: #BC9ABF;
-    display: block;
-    box-sizing: content-box;
-}
-
-.btn__ninja {
-    background: linear-gradient(95.27deg, #6B4185 0%, #4749A3 100%);
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 25px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-    width: 206px;
-    height: 65px;
-    border: #4749A3;
-    margin-top: 20px;
+    color: #704770;
 }
 
-.link__ninja:hover {
-    color: #4749A3;
-}
-
-.btn__ninja:hover {
-    background: linear-gradient(95.27deg, #6B4185 0%, #4749A3 100%);
-    box-shadow: 0px 10px 30px rgba(88, 69, 148, 0.75);
-}
-
-.link__ninja:active {
-    color: #490C3C;
-}
-
-.btn__ninja:active {
-    background: linear-gradient(95.27deg, #37144D 0%, #1C1E6B 100%);
-}
-
-/* Конец контейнера с карточками */
