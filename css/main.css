@@ -105,7 +105,8 @@ body {
     line-height: 25px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    border: #4749A3;}
+    border: #4749A3;
+}
 
 .btn__door__header {
     width: 218px;
@@ -131,18 +132,11 @@ body {
 
 .container__section__all {
     display: flex;
-    /* justify-content: space-between; */
-    
-}
-
-.left__section__all {
-    width: 770px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin-top: 10px;
 }
 
 .text1__left__section__all {
+    font-family: Philosopher;
     font-weight: bold;
     font-size: 24px;
     line-height: 27px;
@@ -152,69 +146,210 @@ body {
 }
 
 .text2__left__section__all {
-    margin-left: 30px;
+    margin-left: 15px;
+    font-family: Philosopher;
     font-weight: bold;
     font-size: 16px;
     line-height: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    justify-content: flex-start;
 }
 
-.card1__left__section__all {
-    margin-top: 30px;
-    flex-grow: 1;
+/* Начало контейнера с карточками */
+
+.left_SALL {
+    max-width: 770px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main_card__left_SALL {
+    max-height: 380px;
+    padding: 210px 40px 40px 40px;
     background-image: url(../img/card/BG1.png);
-    width: 770px;
-    height: 380px;
+    order: 0;
 }
 
-.card2__left__section__all {
-    width: 370px;
-    height: 240px;
+.main__date__card {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #CBD0D7;
+}
+
+.main__theme__card {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #CBD0D7;
+    margin-left: 15px;
+}
+
+.main__title__card {
+    margin-top: 5px;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.main__text__card {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.minor_card {
     margin-top: 30px;
+    padding: 115px 20px 20px 20px;
+    max-width: 370px;
+    background: linear-gradient(180deg, rgba(112, 71, 112, 0) 0%, #704770 100%);
+}
+
+.date__card {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #CBD0D7;
+}
+
+.theme__card {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #CBD0D7;
+}
+
+.title__card {
+    margin-top: 5px 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.text__card {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 330px;
+}
+
+.card2 {
+    order: 2;
+}
+
+.card3 {
+    order: 1;
+}
+
+.card4 {
+    order: 4;
+    margin-left: 30px;
+}
+
+.card5 {
+    order: 3;
+}
+
+.ninja__left_SALL {
+    order: 5;
+    border-radius: 4px;
+    padding: 50px 0 90px 0;
+    max-width: 770px;
+    background: url(../img/card/PICninja.png)no-repeat 425px 22px, url(../img/card/sakura.png) no-repeat 0 50px, url(../img/card/BG__fonninja.png) no-repeat 0 50px;
+}
+
+.card_couple__left_SALL {
     background-image: url(../img/card/BG2.png);
 }
 
-.card3__left__section__all {
-    width: 370px;
-    height: 240px;
-    margin-top: 30px;
+.card_nature__left_SALL {
     background-image: url(../img/card/BG3.png);
 }
 
-.card4__left__section__all {
-    width: 370px;
-    height: 240px;
-    margin-top: 30px;
-    background-image: url(../img/card/BG2.png);
-}
-
-.card5__left__section__all {
-    width: 370px;
-    height: 240px;
-    margin-top: 30px;
-    background-image: url(../img/card/BG3.png);
-}
-
-.card6__left__section__all {
-    margin-top: 50px;
-    flex-grow: 1;
-    background-image: url(../img/card/sakura.png);
-    width: 770px;
-    height: 348px;
-    background: linear-gradient(86.29deg, #FDD4F1 -7.65%, #D1BFF3 104.16%);
+.card__ninja {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 50px 50px;
     border-radius: 4px;
 }
+
+.title__ninja {
+    width: 420px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(107, 65, 133, 1);
+}
+
+.text__ninja {
+    margin: 20px 0 10px 0;
+    width: 400px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #490C3C;
+}
+
+.link__ninja {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BC9ABF;
+    display: block;
+    box-sizing: content-box;
+}
+
+.btn__ninja {
+    background: linear-gradient(95.27deg, #6B4185 0%, #4749A3 100%);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    width: 206px;
+    height: 65px;
+    border: #4749A3;
+    margin-top: 20px;
+}
+
+.link__ninja:hover {
+    color: #4749A3;
+}
+
+.btn__ninja:hover {
+    background: linear-gradient(95.27deg, #6B4185 0%, #4749A3 100%);
+    box-shadow: 0px 10px 30px rgba(88, 69, 148, 0.75);
+}
+
+.link__ninja:active {
+    color: #490C3C;
+}
+
+.btn__ninja:active {
+    background: linear-gradient(95.27deg, #37144D 0%, #1C1E6B 100%);
+}
+
+/* Конец контейнера с карточками */
 
 .right__section__all {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 30px;
     margin-left: 30px;
-    
-
 }
 
 .card1__right__section__all {
@@ -223,6 +358,33 @@ body {
     background: linear-gradient(91.71deg, rgba(121, 119, 231, 0.85) -7.61%, rgba(193, 99, 255, 0.85) 109.72%);
     backdrop-filter: blur(4px);
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.info_card1 {
+    font-family: Philosopher;
+    font-weight: bold;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.number_card1 {
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+.text_card1 {
+    font-size: 18px;
+    line-height: 20px;
+    width: 82px;
+    margin-left: 15px;
 }
 
 .card2__right__section__all {
@@ -230,6 +392,8 @@ body {
     height: 74px;
     background: linear-gradient(91.71deg, rgba(4, 190, 254, 0.85) -7.61%, rgba(68, 129, 235, 0.85) 109.72%);
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
 }
 
 .card3__right__section__all {
@@ -237,19 +401,45 @@ body {
     height: 74px;
     background: linear-gradient(91.71deg, rgba(4, 190, 254, 0.85) -7.61%, rgba(68, 129, 235, 0.85) 109.72%);
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
 }
+
+.info_card2_3 {
+    font-family: Philosopher;
+    font-weight: bold;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.number_card2_3 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+.text_card2_3 {
+    font-size: 14px;
+    line-height: 14px;
+ 
+}
+
 
 .card4__right__section__all {
     width: 370px;
     height: 545px;
 }
 
-
 .CatalogET {
-    display: flex;   
+    display: flex;
+    font-family: Philosopher;
 }
-
-
 
 .btnIcon__CatalogET {
     margin-top: 15px;
@@ -266,12 +456,9 @@ body {
     margin-top: 0;
 }
 
-
 .img__Catalog__EventsTable {
-   margin-left: -33px;
+    margin-left: -33px;
 }
-
-
 
 .btnText__CatalogET {
     margin-top: 15px;
@@ -301,14 +488,11 @@ body {
 .btnIcon__CatalogET:hover {
     background: #FFFFFF;
 }
- 
 
 .btnText__CatalogET:hover {
     background: linear-gradient(95.27deg, #6B4185 0%, #4749A3 100%);
     color: #FFFFFF;
 }
-
-
 
 .btnText__CatalogET:active {
     background: linear-gradient(95.27deg, #37144D 0%, #1C1E6B 100%);
@@ -322,7 +506,6 @@ body {
     border-radius: 4px;
 }
 
-.spisok {   
+.spisok {
     list-style-type: none;
-
 }

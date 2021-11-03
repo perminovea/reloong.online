@@ -5,12 +5,13 @@
 
 body {
     background: white;
-    ;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Philosopher', 'Nunito', sans-serif;
     font-family: 'Philosopher', sans-serif;
 }
 
+/* Начало контейнера с карточками */
 .left_SALL {
+    margin-top: 30px;
     max-width: 770px;
     display: flex;
     flex-wrap: wrap;
@@ -114,13 +115,10 @@ body {
 
 .ninja__left_SALL {
     order: 5;
-    /* background: linear-gradient(86.29deg, #FDD4F1 -7.65%, #D1BFF3 104.16%); */
     border-radius: 4px;
     padding: 50px 0 90px 0;
     max-width: 770px;
-    background-image: url(img/card/PICninja.png);
-    background-repeat: no-repeat;
-    background-position: 420px 22px;
+    background: url(img/card/PICninja.png)no-repeat 425px 22px, url(img/card/sakura.png) no-repeat 0 50px, url(img/card/BG__fonninja.png) no-repeat 0 50px;
 }
 
 .card_couple__left_SALL {
@@ -136,10 +134,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 50px 0 50px 50px;
-    background-image: url(img/card/sakura.png);
-    background-repeat: no-repeat;
     border-radius: 4px;
-    /* background: linear-gradient(86.29deg, #FDD4F1 -7.65%, #D1BFF3 104.16%); */
 }
 
 .title__ninja {
@@ -154,7 +149,7 @@ body {
 
 .text__ninja {
     margin: 20px 0 10px 0;
-    width: 410px;
+    width: 400px;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
@@ -167,6 +162,8 @@ body {
     font-size: 14px;
     line-height: 19px;
     color: #BC9ABF;
+    display: block;
+    box-sizing: content-box;
 }
 
 .btn__ninja {
@@ -182,3 +179,22 @@ body {
     border: #4749A3;
     margin-top: 20px;
 }
+
+.link__ninja:hover {
+    color: #4749A3;
+}
+
+.btn__ninja:hover {
+    background: linear-gradient(95.27deg, #6B4185 0%, #4749A3 100%);
+    box-shadow: 0px 10px 30px rgba(88, 69, 148, 0.75);
+}
+
+.link__ninja:active {
+    color: #490C3C;
+}
+
+.btn__ninja:active {
+    background: linear-gradient(95.27deg, #37144D 0%, #1C1E6B 100%);
+}
+
+/* Конец контейнера с карточками */
