@@ -563,3 +563,12 @@ body {
     line-height: 19px;
     color: #B698B5;
 }
+
+@media (max-width: 1180px) {
+    .right__section__all {
+        display: none;
+    }
+
+
+
+}  
